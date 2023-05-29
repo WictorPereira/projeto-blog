@@ -23,3 +23,7 @@
 .container__small-card__separator{
     margin-top: 10px;
 }
+
+.small-card__title >h1{
+    font-size: 20px;
+}

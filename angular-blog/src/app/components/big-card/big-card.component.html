@@ -1,7 +1,7 @@
 <div class="container__big-card">
 
     <div class="big-card__photo">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAwlQ9LlZJL0huWSH00FnF-9XkVDLhAgkIlg&usqp=CAU" 
+        <img src="{{ photoCover }}" 
         alt="" 
         height=""       
         srcset=""
@@ -9,13 +9,13 @@
     </div>
     
     <div class="big-card__title">
-       <h1><a href="#">Novidades no universo da Marvel</a></h1>
+       <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
 
     <div class="big-card__description">
         <p>
             <a href="#">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis neque, repellat molestiae consectetur dolore iure. Libero saepe unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dolorum minima? Iste cum dignissimos quia, eveniet voluptates neque ipsam laudantium minima quas quod repudiandae voluptate nobis eligendi, minus inventore ab!
+            {{ cardDescription }}
         </a>
         </p>
     </div>
